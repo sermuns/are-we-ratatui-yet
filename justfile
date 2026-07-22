@@ -1,0 +1,2 @@
+present:
+    presenterm presentation.md
