@@ -23,9 +23,6 @@ theme:
 
 ---
 
-<!-- jump_to_middle -->
-Yes, I would say so!
----
 
 <!-- end_slide -->
 # Who am I?
@@ -42,6 +39,10 @@ Yes, I would say so!
 
 - **I have a parasocial relationship with Orhun Parmaksız**
 
+<!-- jump_to_middle -->
+Yes, I would say so!
+---
+
 <!-- end_slide -->
 # The next 5 minutes
 
@@ -49,19 +50,19 @@ Yes, I would say so!
 
 - My journey of porting Ratatui
     - ..to the Nintendo Switch
-    - ..to PDFs (**ratatypst**)
-    - ..to SVG (**ratasvg**)
-    - ..to UEFI (**ratatuefi**)
+    - ..to PDFs (`ratatypst`)
+    - ..to SVG  (`ratasvg`)
+    - ..to UEFI (`ratatuefi`)
 
 - Previous work
 
 <!-- end_slide -->
 <!-- jump_to_middle -->
-Ratatui on Nintendo Switch
+Ratatui on the Nintendo Switch
 ---
 
 <!-- end_slide -->
-# Ratatui on Nintendo Switch
+# Ratatui on the Nintendo Switch
 
 - The `aarch64-switch-rs` project gives Rust bindings to homebrew libraries
 
@@ -95,15 +96,24 @@ _next up..._
 ![image:width:100%](./ratatypst-screenshot.png)
 
 <!-- end_slide -->
-<!-- jump_to_middle -->
-Ratatui in UEFI
----
+
+Typst compiles code to PDF.
+
+This is not an interactive environment..
+
+..yet, because Typst can be rendered instantly
+
+..we can write deterministic Ratatui apps that take a string of keypresses _(like `hjklhlhkjkj khljh`)_
+
+<!-- end_slide -->
+_next up..._
+![image:width:100%](./ratatuefi-banner.png)
 
 <!-- end_slide -->
 # Ratatui before the OS: _ratatuefi_
 <!-- pause -->
 
-- The crate `uefi` provides high-level API for writing UEFI applications
+- The crate `uefi` provides nice API for writing UEFI applications
 
 <!-- new_line-->
 <!-- pause -->
@@ -114,6 +124,21 @@ Ratatui in UEFI
 - _(I am using `efimux`, my own bootloader-like EFI app to boot Arch Linux)_
 
 <!-- end_slide -->
+
+<!-- end_slide -->
+_next up..._
+
+<!-- jump_to_middle -->
+
+ratasvg
+---
+
+<!-- new_lines: 3 -->
+
+_(i haven't created any cursed logo.. yet..)_
+
+<!-- end_slide -->
+
 # Ratatui widgets to SVGs: _ratasvg_ (1/2)
 
 <!-- list_item_newlines: 2 -->
@@ -126,8 +151,8 @@ Ratatui in UEFI
 <!-- list_item_newlines: 2 -->
 <!-- incremental_lists: true -->
 - I am unsure of what the user interface should be
-    - Currently, it is designed to be ran in `xtask` (for generating project banner)
-    - Would be cool to have a CLI that scans your codebase for (specific?) Ratatui widgets and auto-renders them
+    - Current design: it is just a library
+    - Would be cool to have a CLI that scans your codebase for (specific?) Ratatui widgets and auto-render them
 
 <!-- end_slide -->
 <!-- jump_to_middle -->
@@ -136,12 +161,12 @@ Previous work
 
 <!-- end_slide -->
 # Previous work
+<!-- list_item_newlines: 2 -->
 
 - `mousefood`: embedded-graphics backend 
 - `ratzilla`: Ratatui for the web
 - `tui-uefi`: which seems to have existed months before `ratatuefi`..
 - `egui_ratatui`: egui widget + Ratatui backend
-<!-- new_line -->
 - ...and much more under https://github.com/ratatui/awesome-ratatui
 
 <!-- end_slide -->
@@ -171,3 +196,11 @@ My takeaways
 - https://github.com/sermuns/efimux
 - https://github.com/sermuns/ratasvg
 
+<!-- end_slide -->
+<!-- jump_to_middle -->
+Thank you!
+---
+
+<!-- alignment: center -->
+
+https://github.com/sermuns
