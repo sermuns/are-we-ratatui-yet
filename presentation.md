@@ -23,6 +23,9 @@ theme:
 
 ---
 
+<!-- jump_to_middle -->
+Yes, I would say so!
+---
 
 <!-- end_slide -->
 # Who am I?
@@ -38,10 +41,6 @@ theme:
 <!-- pause -->
 
 - **I have a parasocial relationship with Orhun Parmaksız**
-
-<!-- jump_to_middle -->
-Yes, I would say so!
----
 
 <!-- end_slide -->
 # The next 5 minutes
